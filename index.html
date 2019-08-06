@@ -28,15 +28,17 @@
 				<section>
 					<h1>Web Security</h1>
 					<p>...and more</p>
+					<span style="font-size: 20px;">Slides at: github.com/bitskriegofficial/web-security-1</span>
 				</section>
 				<section>
-					<p>Protocol implementation bugs (HTTP)</p>
+					<h2>In web, mostly..</h2>
+					<p>Implementation bugs (HTTP/Disallowed files/robots.txt/humans.txt)</p>
 					<p>Server side vulnerabilities (Programming Languages)</p>
-					<p>Client side running</p>
+					<p>Client side</p>
 				</section>
 
 				<section>
-					<h1>How HTTP works (simplified)</h1>
+					<h2>How HTTP works (simplified)</h2>
 						
 					<p>1. Browser makes a request to google.com</p>
 					<p>2. Your OS asks DNS resolvers about google.com</p>
@@ -64,7 +66,20 @@
 				</section>
 				
 				<section>
-					<img src="images/cookies-gmail.png" />
+					<img src="images/initial-req-gmail.png" />
+				</section>
+
+
+				<section>
+					<img src="images/request-gmail.png" />
+				</section>
+
+				<section>
+					<img src="images/response-gmail.png" />
+				</section>
+
+				<section>
+					<img src="images/gmail-final-response.png" />
 				</section>
 
 				<section>
@@ -96,30 +111,46 @@
 					<p>You could also use Chrome Dev Tools</p>
 				</section>
 
-				<section>
-					<h1>CTF Questions</h1>
-					<p>Let's look at some CTF questions first</p>
-				</section>
+				
+				<div class="reveal">
+					<div class="slides">
+						
+						<section>
+							
+							<section>
+								<h1>CTF Questions</h1>
+								<p>Let's look at some CTF questions first</p>
+							</section>
 
-				<section>
-					<img src="images/ctf-inspect.png" />
-					<p>http://2018shell.picoctf.com:28831</p>
-				</section>
+							<section>
+								<img src="images/ctf-inspect.png" />
+								<p>http://2018shell.picoctf.com:28831</p>
+							</section>
+			
+							<section>
+								<img src="images/ctf-admin.png" />
+								<p>http://2018shell.picoctf.com:57252</p>
+							</section>
+							
+							<section>
+								<img src="images/ctf-md5.png" />
+								<p>http://web.hackable.ca:8082/</p>
+							</section>
+							
+							<section>
+								<img src="images/ctf-sql.png" />
+								<p>http://2018shell.picoctf.com:52135</p>
+							</section>
+			
+							<section>
+								<img src="images/ctf-button.png" />
+								<p>http://2018shell.picoctf.com:18342</p>
+							</section>
+						</section>
+					</div>
+				</div>
 
-				<section>
-					<img src="images/ctf-admin.png" />
-					<p>http://2018shell.picoctf.com:57252</p>
-				</section>
-
-				<section>
-					<img src="images/ctf-sql.png" />
-					<p>http://2018shell.picoctf.com:52135</p>
-				</section>
-
-				<section>
-					<img src="images/ctf-button.png" />
-					<p>http://2018shell.picoctf.com:18342</p>
-				</section>
+				
 
 				<section>
 					<h1>Web Security in real world</h1>
@@ -188,12 +219,6 @@
 						<li>Read writeups (CTF or real word vulnerability reports)</li>
 						<li>Practice - hackerone.com/ctftime.org</li>
 					</ul>
-				</section>
-
-				<section>
-					<h2>Another Question</h2>
-					<img src="ctf-md5.png" />
-					<p>http://web.hackable.ca:8082/</p>
 				</section>
 
 				<section data-background-iframe="https://alf.nu/alert1"  data-background-interactive>
